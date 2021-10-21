@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration>
+	<feature automatic="selected" name="GraphLibrary"/>
+	<feature automatic="selected" name="Edges"/>
+	<feature manual="selected" name="Directed"/>
+	<feature automatic="unselected" name="Undirected"/>
+	<feature name="Algorithms"/>
+	<feature name="Number"/>
+	<feature name="Cycle"/>
+</configuration>

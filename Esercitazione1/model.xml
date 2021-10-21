@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+	<properties>
+		<graphics key="legendautolayout" value="true"/>
+		<graphics key="showshortnames" value="false"/>
+		<graphics key="layout" value="horizontal"/>
+		<graphics key="showcollapsedconstraints" value="true"/>
+		<graphics key="legendhidden" value="false"/>
+		<graphics key="layoutalgorithm" value="1"/>
+	</properties>
+	<struct>
+		<and abstract="true" mandatory="true" name="GraphLibrary">
+			<graphics key="collapsed" value="false"/>
+			<alt mandatory="true" name="Edges">
+				<feature name="Directed"/>
+				<feature name="Undirected"/>
+			</alt>
+			<or abstract="true" name="Algorithms">
+				<feature name="Number"/>
+				<feature name="Cycle"/>
+			</or>
+		</and>
+	</struct>
+	<constraints>
+		<rule>
+			<imp>
+				<var>Cycle</var>
+				<var>Directed</var>
+			</imp>
+		</rule>
+	</constraints>
+</featureModel>
