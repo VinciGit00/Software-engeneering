@@ -18,7 +18,7 @@ public class Pippo {
         //#endif
     }
 
-    public static void main(string[] args) {
+    public static void main(String[] args) {
         Pippo p = new Pippo();
     }
 }
