@@ -1,7 +1,7 @@
 # Software-engenering
-Exe of software engeneering
+Exe of software engeneering's course
 
-This exe include:
+This repo include:
 
 -java feature ide examples
 
