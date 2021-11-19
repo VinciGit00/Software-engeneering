@@ -2909,6 +2909,7 @@
 									"model": {
 										"$ref": "AAAAAAF9N+IjWj+YyT8="
 									},
+									"visible": false,
 									"font": "Arial;13;0",
 									"left": 865,
 									"top": 283,
@@ -3594,8 +3595,7 @@
 								},
 								"reference": {
 									"$ref": "AAAAAAF9N9oE7zgkXGY="
-								},
-								"multiplicity": "0...*"
+								}
 							}
 						}
 					],
