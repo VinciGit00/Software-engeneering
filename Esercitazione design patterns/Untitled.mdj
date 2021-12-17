@@ -1,0 +1,317 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true,
+					"ownedViews": [
+						{
+							"_type": "UMLClassView",
+							"_id": "AAAAAAF9w5qBXHBpdMg=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"model": {
+								"$ref": "AAAAAAF9w5qBW3Bn5uA="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAF9w5qBXHBq2j4=",
+									"_parent": {
+										"$ref": "AAAAAAF9w5qBXHBpdMg="
+									},
+									"model": {
+										"$ref": "AAAAAAF9w5qBW3Bn5uA="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF9w5qBXHBrzC4=",
+											"_parent": {
+												"$ref": "AAAAAAF9w5qBXHBq2j4="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -3,
+											"top": 189,
+											"width": 119.919921875,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF9w5qBXXBsU7w=",
+											"_parent": {
+												"$ref": "AAAAAAF9w5qBXHBq2j4="
+											},
+											"font": "Arial;13;1",
+											"left": 101,
+											"top": 199,
+											"width": 191.94677734375,
+											"height": 13,
+											"text": "CentroVaccinazioni"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF9w5qBXXBta2E=",
+											"_parent": {
+												"$ref": "AAAAAAF9w5qBXHBq2j4="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -208,
+											"top": -16,
+											"width": 73.67724609375,
+											"height": 13,
+											"text": "(from Model)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF9w5qBXXBuZ/Y=",
+											"_parent": {
+												"$ref": "AAAAAAF9w5qBXHBq2j4="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -208,
+											"top": -16,
+											"height": 13,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 96,
+									"top": 192,
+									"width": 201.94677734375,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAF9w5qBXHBrzC4="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAF9w5qBXXBsU7w="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAF9w5qBXXBta2E="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAF9w5qBXXBuZ/Y="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAF9w5qBXXBv2Tk=",
+									"_parent": {
+										"$ref": "AAAAAAF9w5qBXHBpdMg="
+									},
+									"model": {
+										"$ref": "AAAAAAF9w5qBW3Bn5uA="
+									},
+									"subViews": [
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF9w5uqTXCURME=",
+											"_parent": {
+												"$ref": "AAAAAAF9w5qBXXBv2Tk="
+											},
+											"model": {
+												"$ref": "AAAAAAF9w5uqNXCR5yo="
+											},
+											"font": "Arial;13;0",
+											"left": 101,
+											"top": 222,
+											"width": 191.94677734375,
+											"height": 13,
+											"underline": true,
+											"text": "+Check",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 96,
+									"top": 217,
+									"width": 201.94677734375,
+									"height": 23
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAF9w5qBXXBwc5I=",
+									"_parent": {
+										"$ref": "AAAAAAF9w5qBXHBpdMg="
+									},
+									"model": {
+										"$ref": "AAAAAAF9w5qBW3Bn5uA="
+									},
+									"subViews": [
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF9w55QzXCvuAw=",
+											"_parent": {
+												"$ref": "AAAAAAF9w5qBXXBwc5I="
+											},
+											"model": {
+												"$ref": "AAAAAAF9w55QnnCsH9g="
+											},
+											"font": "Arial;13;0",
+											"left": 101,
+											"top": 245,
+											"width": 191.94677734375,
+											"height": 13,
+											"text": "-CentroVaccinazioni()",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF9w5/7KHDBGqM=",
+											"_parent": {
+												"$ref": "AAAAAAF9w5qBXXBwc5I="
+											},
+											"model": {
+												"$ref": "AAAAAAF9w5/7InC+sGI="
+											},
+											"font": "Arial;13;0",
+											"left": 101,
+											"top": 260,
+											"width": 191.94677734375,
+											"height": 13,
+											"underline": true,
+											"text": "+getInstance()",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 96,
+									"top": 240,
+									"width": 201.94677734375,
+									"height": 38
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAF9w5qBXXBxQiU=",
+									"_parent": {
+										"$ref": "AAAAAAF9w5qBXHBpdMg="
+									},
+									"model": {
+										"$ref": "AAAAAAF9w5qBW3Bn5uA="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": -104,
+									"top": -8,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAF9w5qBXnByJmQ=",
+									"_parent": {
+										"$ref": "AAAAAAF9w5qBXHBpdMg="
+									},
+									"model": {
+										"$ref": "AAAAAAF9w5qBW3Bn5uA="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": -104,
+									"top": -8,
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"containerChangeable": true,
+							"left": 96,
+							"top": 192,
+							"width": 201.94677734375,
+							"height": 86,
+							"showProperty": false,
+							"nameCompartment": {
+								"$ref": "AAAAAAF9w5qBXHBq2j4="
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAF9w5qBXXBv2Tk="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAF9w5qBXXBwc5I="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAF9w5qBXXBxQiU="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAF9w5qBXnByJmQ="
+							}
+						},
+						{
+							"_type": "UMLNoteView",
+							"_id": "AAAAAAF9w5wLfnCYUQo=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"left": 384,
+							"top": 200,
+							"width": 233,
+							"height": 65,
+							"text": "if(Check==null)\n   Check = new Centrovaccinazioni(); return Check()"
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAF9w5qBW3Bn5uA=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "CentroVaccinazioni",
+					"stereotype": "",
+					"visibility": "private",
+					"attributes": [
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF9w5uqNXCR5yo=",
+							"_parent": {
+								"$ref": "AAAAAAF9w5qBW3Bn5uA="
+							},
+							"name": "Check",
+							"isStatic": true
+						}
+					],
+					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF9w55QnnCsH9g=",
+							"_parent": {
+								"$ref": "AAAAAAF9w5qBW3Bn5uA="
+							},
+							"name": "CentroVaccinazioni",
+							"visibility": "private"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF9w5/7InC+sGI=",
+							"_parent": {
+								"$ref": "AAAAAAF9w5qBW3Bn5uA="
+							},
+							"name": "getInstance",
+							"isStatic": true
+						}
+					]
+				}
+			]
+		}
+	]
+}
